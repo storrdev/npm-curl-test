@@ -1,0 +1,12 @@
+{
+  "name": "npm-curl-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "curl --request GET \\ --url http://192.168.188.5:3000/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
